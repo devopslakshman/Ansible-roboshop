@@ -7,7 +7,8 @@
 
     - name: Copy MongoDB repo
       ansible.builtin.copy:
-        src: /home/ec2-user/Ansible-roboshop/mongo.repo
+        src: //home/ec2-user/Ansible-roboshop/mongo.epo
+
         dest: /etc/yum.repos.d/mongo.repo
 
     - name: Install MongoDB server
