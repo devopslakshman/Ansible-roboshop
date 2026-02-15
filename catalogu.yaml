@@ -1,0 +1,5 @@
+---
+-name:configurecatalogue service
+become: yes
+hosts: catalogue
+tasks:
