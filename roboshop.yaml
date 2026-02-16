@@ -9,7 +9,7 @@
     env: dev
     action: create
     instances:
-    - user
+    - cart
     
   tasks:
   ### CREATE ###
