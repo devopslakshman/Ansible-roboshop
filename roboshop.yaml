@@ -9,7 +9,7 @@
     env: dev
     action: create
     instances:
-    - shipping
+    - rabbitmq
     
   tasks:
   ### CREATE ###
