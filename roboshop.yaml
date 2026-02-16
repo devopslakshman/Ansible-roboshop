@@ -9,8 +9,8 @@
     env: dev
     action: create
     instances:
-    - mongodb
-    - catalogue
+    - redis
+    
   tasks:
   ### CREATE ###
   - name: create ec2 instance
