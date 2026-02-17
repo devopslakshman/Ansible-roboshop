@@ -9,7 +9,16 @@
     env: dev
     action: create
     instances:
-    - frontend
+    - mongodb
+    -catalogue
+    -redis
+    -user
+    -cart
+    -mysql
+    -shipping
+    -rabbitmq
+    -payment
+    -frontend
     
   tasks:
   ### CREATE ###
